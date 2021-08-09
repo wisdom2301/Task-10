@@ -11,31 +11,31 @@ import Login from './Pages/Login';
 function App() {
   return (
     <div className="App">
-      <div className="header">
+      <nav className="nav-header">
 
-             <NavLink to="/" activeClassName="selected">Home</NavLink>
+             <NavLink to="/" activeClassName="selected-hover" className="selected" >Home</NavLink>
 
-            <NavLink to= "/about" activeClassName="selected">About</NavLink>
+            <NavLink to= "/about" className="selected" activeClassName="selected-hover">About</NavLink>
 
-            <NavLink to="/contact" activeClassName="selected">Contact</NavLink>
+            <NavLink to="/contact" className="selected" activeClassName="selected-hover">Contact</NavLink>
 
-            <NavLink to="/login" activeClassName="selected">Login</NavLink>
-    
+            <NavLink to="/login" className="selected" activeClassName="selected-hover">Login</NavLink>
         
-      </div>
+      </nav>
        
 <Switch>
+
 <Route path="/about">
   <About />
 </Route>
 <Route path="/contact">
   <Contact />
 </Route>
-<Route path="/">
-  <Home />
-  </Route>
 <Route path="/login">
   <Login />
+</Route>
+<Route path="/">
+  <Home />
   </Route>
 </Switch>
 <br></br>

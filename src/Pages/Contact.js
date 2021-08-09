@@ -10,7 +10,7 @@ export default function Contact() {
             
             <br />
            
-               <button>Call</button> 
+               <button>Call <i class="fas fa-caret-right fa-1x"></i></button> 
             
             <br />
            

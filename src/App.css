@@ -1,62 +1,29 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 5s linear;
-  }
-}
-
-.App-header {
-  background-color: #73d0ec;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .selected{
-  color: rgb(248, 244, 8);
+ color: rgb(255, 255, 255);
   text-decoration: none;
-padding: 25px;
+  padding: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
 }
-.header {
+.selected-hover{
+ color: rgb(238, 234, 8);
+}
+.nav-header {
   background-color: rgb(12, 68, 70);
   height: 80px;
-  width: 1400px;
-  font-size: 15px;
-  color: white;
-}
-.flex-container{
+  width: auto;
   display: flex;
   justify-content: flex-end;
-}
-.my-login{
-  text-align: justify;
-  height: 20px;
-  width: 200px;
-  border-radius: 30px;
+  align-items: center;
+  gap: 1%;
 }
 .home-tag{
   font-size: 18px;
@@ -104,4 +71,11 @@ h4{
   font-size: 35px;
   text-transform: capitalize;
   text-align: center;
+}
+input{
+  width: 500px;
+  height: 100px;
+  border-radius: 15px;
+  background-color: transparent;
+  font-size: 50px;
 }

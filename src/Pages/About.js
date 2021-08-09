@@ -11,7 +11,7 @@ export default function About() {
             </div>
             <br />
             <div>
-               <button>More</button> 
+               <button>More <i class="fas fa-caret-right fa-1x"></i></button> 
             </div>
             <br />
             <div>
